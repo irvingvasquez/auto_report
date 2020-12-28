@@ -7,7 +7,7 @@
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
-
+\usepackage{subfig}
 
 \oddsidemargin  0.25in
 \evensidemargin 0.25in
@@ -24,7 +24,7 @@
 {\bf {\Large Juan Irving Vasquez-Gomez}}
 \vspace{0.5cm}
 \\
-\textbf{Trabajo:} Investigador de Cátedras CONACYT asignado al Instituto Politécnico Nacional (IPN), Centro de Innovación y Desarrollo Tecnológico en Cómputo (CIDETEC) \\ 
+\textbf{Trabajo:} Investigador de Cátedras CONACYT \\ asignado al Instituto Politécnico Nacional (IPN), \\ Centro de Innovación y Desarrollo Tecnológico en Cómputo (CIDETEC) \\ 
 \textbf{Dirección:} Av."Juan de Dios Bátiz" s/n esq. Miguel Othón de Mendizábal \\
  Col. Nueva Industrial Vallejo, Del. Gustavo A. Madero, Ciudad de México, C.P. 07700. \\
 \textbf{Teléfono:} +52 55 5729-6000 Ext. 52516. \\
@@ -108,13 +108,24 @@
 
 \item {\bf PUBLICACIONES} \\
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.7\linewidth]{../text/products}
-	\caption{Distribución de publicaciones.}
-	\label{fig:products}
+\begin{figure}[!ht]
+	\subfloat[Distribución de productos. \label{subfig-1:dummy}]{%
+		\includegraphics[trim=90 0 90 0, clip, width=0.60\textwidth]{../text/products}
+	}
+	\hfill
+	\subfloat[Métricas en Scopus\label{subfig-2:dummy}]{%
+		\includegraphics[width=0.35\textwidth]{../text/scopus_metrics}
+	}
+	\caption{Gráficas sobre la producción científica.}
+	\label{fig:dummy}
 \end{figure}
 
+%\begin{figure}[h]
+%	\centering
+%	\includegraphics[width=0.7\linewidth]{../text/products}
+%	\caption{Distribución de publicaciones.}
+%	\label{fig:products}
+%\end{figure}
 
 \begin{itemize}
 	\item Artículos en revistas indexadas en el JCR:
@@ -156,8 +167,11 @@
 \item \textbf{VINCULACIÓN Y DIVULGACIÓN}
 
 \begin{itemize}
-	\item Pláticas impartidas
+	\item Pláticas impartidas:
 	\input{../text/talks.tex}
+	
+	\item Talleres impartidos
+	\input{../text/workshop.tex}
 \end{itemize}
 
 

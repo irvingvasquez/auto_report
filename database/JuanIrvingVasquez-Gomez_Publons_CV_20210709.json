@@ -1,0 +1,54 @@
+{
+    "author": {
+        "publishing_name": "Juan Irving Vasquez-Gomez",
+        "rid": "W-8807-2019",
+        "url": "https://publons.com/researcher/W-8807-2019/"
+    },
+    "date_generated": "July 9th 2021",
+    "records": {
+        "review": {
+            "per_journal": [
+                {
+                    "name": "International Journal of Advanced Robotic Systems",
+                    "count": 5,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "IEEE Access",
+                    "count": 5,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Autonomous Robots",
+                    "count": 5,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Journal of Intelligent & Robotic Systems",
+                    "count": 2,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Intelligent Service Robotics",
+                    "count": 2,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Robotics and Autonomous Systems",
+                    "count": 2,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "IEEE Robotics and Automation Letters",
+                    "count": 2,
+                    "is_in_wos_cc": true
+                },
+                {
+                    "name": "Computers and Electronics in Agriculture",
+                    "count": 1,
+                    "is_in_wos_cc": true
+                }
+            ]
+        }
+    }
+}

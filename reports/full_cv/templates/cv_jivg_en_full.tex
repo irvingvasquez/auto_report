@@ -7,7 +7,8 @@
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
-
+\usepackage{subfig}
+\usepackage{fontawesome}
 
 \oddsidemargin  0.25in
 \evensidemargin 0.25in
@@ -20,31 +21,45 @@
 \hyphenation{}
 
 \begin{document}
-\begin{center}
-{\bf {\Large Juan Irving Vasquez-Gomez}}
-\vspace{0.5cm}
-\\
-\textbf{Date of birth:} November 11, 1984 \\
-\textbf{Work:} Cátedras CONACYT researcher assigned to Instituto Politécnico Nacional (IPN)\\
-Centro de Innovación y Desarrollo Tecnológico en Cómputo (CIDETEC) \\ 
-\textbf{Address:} Av."Juan de Dios Bátiz" s/n esq. Miguel Othón de Mendizábal \\
- Col. Nueva Industrial Vallejo, Del. Gustavo A. Madero, Ciudad de México, C.P. 07700. \\
-\textbf{Phone:} +52 55 5729-6000 Ext. 52516. \\
-\textbf{e-mail:} jivasquezg@conacyt.mx, ivasquez@ccc.inaoep.mx\\
-\textbf{URL:} \url{https://jivg.org} \\
-\textbf{ORCID:} \url{https://orcid.org/0000-0001-8427-9333} \\
-\textbf{github:} \url{https://github.com/irvingvasquez}
+	
+	\begin{center}
+		{\bf {\LARGE Juan Irving Vásquez Gómez}}
+		\vspace{0.5cm}
+		
+		\begin{minipage}[b]{0.30\linewidth}
+			\centering
+			\includegraphics[width=\textwidth]{jivg36}
+			%	\caption{default}
+			%	\label{fig:figure1}
+		\end{minipage}
+		\hspace{0.5cm}
+		\begin{minipage}[b]{0.6\linewidth}
+			\textbf{Date of birth:} November, 1984 \\
+			\textbf{Work:} Cátedras CONACYT researcher assigned to Instituto Politécnico Nacional (IPN), 
+			Centro de Innovación y Desarrollo Tecnológico en Cómputo (CIDETEC) \\ 
+			\textbf{Address:} Av."Juan de Dios Bátiz" s/n esq. Miguel Othón de Mendizábal, 
+			Col. Nueva Industrial Vallejo, Del. Gustavo A. Madero, Ciudad de México, C.P. 07700. \\
+			\textbf{Telephone \faPhone:} +52 55 5729-6000 Ext. 52516. \\
+			\textbf{e-mail \faEnvelopeO:} jivasquezg@conacyt.mx, jvasquezg@ipn.mx, jirvingvg@gmail.com\\
+			\textbf{URL \faExternalLink:} \url{https://jivg.org} \\
+			\textbf{ORCID:} \url{https://orcid.org/0000-0001-8427-9333} \\
+			\textbf{Scopus Id:} \href{https://www.scopus.com/authid/detail.uri?authorId=54415023500}{54415023500}\\
+			\textbf{github \faGithub :} \url{https://github.com/irvingvasquez} \\
+			\textbf{Kaggle:} \url{https://www.kaggle.com/irvingvasquez}
+		\end{minipage}
+			
+	\end{center}
 
-\end{center}
 
 \begin{center}
-{\bf Research Interests:} \\ Robotics, Computer Vision, Three-dimensional
-Modelling, Motion Planning.
+{\bf Research Interests:} \\ Robotics, Computer Vision, Three-dimensional Modelling, Motion Planning.
 \end{center}
 
 \begin{itemize}
+
+\item{\bf PERSONAL STATEMENT:}
 	
-\input{bio}
+\input{../text/personal_statement_en}
 	
 \item{\bf EDUCATION:}
 
@@ -53,15 +68,16 @@ Modelling, Motion Planning.
 \end{minipage}
 \begin{minipage}{4.5in}
 	\textbf{PhD. in Computer Sciencies.} \textit{Institute for Astrophysics Optics and
-	Electronics (INAOE).} Thesis: View Planning for 3D Object Reconstruction with Mobile Robots. Advisors: Enrique Sucar and Rafael Murrieta.\\ 
+	Electronics (INAOE) \href{https://www.inaoep.mx/}{\faExternalLink}.} Thesis: View Planning for 3D Object Reconstruction with Mobile Robots \href{https://jivasquez.files.wordpress.com/2015/03/tesis-doctorado.pdf}{\faFilePdfO}. Advisors: Enrique Sucar and Rafael Murrieta.\\ 
 \end{minipage}
+
 
 \begin{minipage}{1.5 in}
 	2009\\
 \end{minipage}
 \begin{minipage}{4.5in}
 	\textbf{M. Sc. in Computer Sciencies.} \textit{Institute for Astrophysics Optics and
-		Electronics (INAOE).} Thesis: View Planning for Three-dimensional Object Reconstruction. Advisors: Enrique Sucar and Efrain Lopez-Damian.\\ 
+		Electronics (INAOE) \href{https://www.inaoep.mx/}{\faExternalLink}.} Thesis: View Planning for Three-dimensional Object Reconstruction \href{https://jivasquez.files.wordpress.com/2015/03/tesis-maestria.pdf}{\faFilePdfO}. Advisors: Enrique Sucar and Efrain Lopez-Damian.\\ 
 \end{minipage}
 
 \begin{minipage}{1.5 in}
@@ -71,51 +87,71 @@ Modelling, Motion Planning.
 	\textbf{B.S.E. in Computer Systems Engineering} \textit{Tehuacan Institute of Technology (ITT)}, Graduated by ``Score of excelence".\\ 
 \end{minipage}
 
-\item {\bf PROFESSIONAL EXPERIENCE:} \\\\
-
-\begin{minipage}{1.5 in}
-	02/2016 - Current\\
-\end{minipage}
-\begin{minipage}{4.5in}
-	CONACYT Research Fellow assigned to Instituto Politécnico Nacional (IPN), Centro de Innovación y Desarrollo Tecnológico en Cómputo (CIDETEC). Project 1507.\\ 
-\end{minipage}
-
+%\item {\bf PROFESSIONAL EXPERIENCE:} \\\\
+%
 %\begin{minipage}{1.5 in}
-%	01/2015 - 12/2015\\
+%	02/2016 - Current\\
 %\end{minipage}
 %\begin{minipage}{4.5in}
-%	CONACYT Research Fellow assigned to Instituto Politécnico Nacional, Centro de Innovación y Desarrollo Tecnológico en Cómputo. Project 1507.\\ 
+%	CONACYT Research Fellow assigned to Instituto Politécnico Nacional (IPN), Centro de Innovación y Desarrollo Tecnológico en Cómputo (CIDETEC). Project 1507.\\ 
 %\end{minipage}
+%
+%%\begin{minipage}{1.5 in}
+%%	01/2015 - 12/2015\\
+%%\end{minipage}
+%%\begin{minipage}{4.5in}
+%%	CONACYT Research Fellow assigned to Instituto Politécnico Nacional, Centro de Innovación y Desarrollo Tecnológico en Cómputo. Project 1507.\\ 
+%%\end{minipage}
+%
+%\begin{minipage}{1.5 in}
+%08/2009 - 08/2014\\
+%\end{minipage}
+%\begin{minipage}{4.5in}
+%Researcher and programmer for the INAOE's Markovito Team at the Robocup@home
+%Competition.\\ 
+%\end{minipage}
+%
+%\item{\bf MAIN AWARDS AND DISTINCTIONS}
+%%\input{../../text/awards_es}
+%
+\item {\bf PUBLICATIONS:} \\
 
-\begin{minipage}{1.5 in}
-08/2009 - 08/2014\\
-\end{minipage}
-\begin{minipage}{4.5in}
-Researcher and programmer for the INAOE's Markovito Team at the Robocup@home
-Competition.\\ 
-\end{minipage}
+\begin{figure}[t]
+	\subfloat[Publications distribution.\label{subfig-1:dummy}]{%
+		\includegraphics[trim=90 0 90 0, clip, width=0.60\textwidth]{../text/products_en.pdf}
+	}
+	\hfill
+	\subfloat[Scopus metrics\label{subfig-2:dummy}]{%
+		\includegraphics[width=0.35\textwidth]{../text/scopus_metrics.png}
+	}
+	\caption{Scientific products.}
+	\label{fig:dummy}
+\end{figure}
 
-\item{\bf MAIN AWARDS AND DISTINCTIONS}
-%\input{../../text/awards_es}
-
-\item {\bf PUBLICATIONS:} \\\\
 \begin{itemize}
-	\input{../../papers.tex}
+	\item \textbf{JCR Journals}:
+	\input{../text/jcr_journals.tex}
+	
+	\item \textbf{Conferences}:
+	\input{../text/proceedings.tex}
+	
+	\item \textbf{Preprints}:
+	\input{../text/preprints.tex}
 \end{itemize}
 
+\vspace{0.5cm}
+\item{\bf STUDENTS:}
 
-%\input{conferences.tex}
+\begin{itemize}
+	\item Master students:
+	\input{../text/master_students}
+	
+\end{itemize}
 
-\input{../../formacion.tex}
-
-\input{../../reviewer.tex}
-
-%\input{platicas}
-
-%\clearpage
-
-
-
+\vspace{0.5cm}
+\item \textbf{CERTIFICATIONS}
+\input{../text/certifications.tex}
 
 \end{itemize}
+
 \end{document}

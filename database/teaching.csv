@@ -1,40 +1,52 @@
-Clave,Nombre,Nivel,Institucion,Programa,Inicio,Fin,Semestre,Horas,Comentario
-0,Arquitectura de Computadoras,Maestría,CIDETEC-IPN,,2016/02/01,2016/06/10,,72,
-0,Visión Artificial,Maestría,CIDETEC-IPN,,2016/08/08,2016/12/21,,72,
-0,Seminario Departamental I,Maestría,CIDETEC-IPN,,2017/01/01,2017/06/01,,36,
-0,Seminario Departamental II,Maestría,CIDETEC-IPN,,2017/01/01,2017/06/01,,36,
-0,Temas Selectos en Tecnología de Cómputo,Maestría,CIDETEC-IPN,,2017/01/01,2017/06/01,,72,
-0,Visión Artificial,Maestría,CIDETEC-IPN,,2017/01/01,2017/06/01,,72,
-0,Visión 3D,Maestría,CIDETEC-IPN,,2017/08/01,2017/12/01,,72,
-0,Seminario Departamental II,Maestría,CIDETEC-IPN,,2017/08/01,2017/12/01,,36,
-0,Seminario Departamental III,Maestría,CIDETEC-IPN,,2017/08/01,2017/12/01,,36,
-0,Seminario Departamental II,Maestría,CIDETEC-IPN,,2018/01/01,2018/06/01,,36,ok
-0,Seminario Departamental III,Maestría,CIDETEC-IPN,,2018/01/01,2018/06/01,,36,ok
-0,Temas Selectos en Tecnología de Cómputo,Maestría,CIDETEC-IPN,,2018/01/01,2018/06/01,,72,ok
-0,Seminario Departamental III,Maestría,CIDETEC-IPN,,2018/08/01,2018/12/01,,36,ok
-0,Visión Artificial,Maestría,CIDETEC-IPN,,2018/08/01,2018/12/01,,72,ok
-0,Temas Selectos en Tecnología de Cómputo,Maestría,CIDETEC-IPN,,2018/08/01,2018/12/01,,72,ok
-0,Visión Artificial,Maestría,CIDETEC-IPN,,2019/01/01,2019/06/01,19A,72,ok
-0,Temas Selectos en Tecnología de Cómputo,Maestría,CIDETEC-IPN,,2019/01/01,2019/06/01,19A,72,ok
-0,Seminario de Tesis I,Doctorado,CIDETEC-IPN,,2019/08/05,2019/12/06,19B,36,ok
-0,Robótica Móvil,Doctorado,CIDETEC-IPN,,2019/08/05,2019/12/06,19B,72,ok
-0,Visión Artificial,Maestría,CIDETEC-IPN,,2020/01/20,2020/06/05,20A,72,ok
-0,Robótica Móvil,Doctorado,CIDETEC-IPN,,2020/01/20,2020/06/05,20A,72,ok
-0,Seminario de Tesis I,Doctorado,CIDETEC-IPN,,2020/01/20,2020/06/05,20A,36,ok
-0,Seminario de Tesis II,Doctorado,CIDETEC-IPN,,2020/01/20,2020/06/05,20A,36,ok
-0,Visión 3D,Maestría,CIDETEC-IPN,,2021/02/22,2021/06/29,21A,72,
-0,Robótica Móvil,Doctorado,CIDETEC-IPN,,2021/02/22,2021/06/29,21A,72,
-0,Seminario de Tesis II,Doctorado,CIDETEC-IPN,,2021/02/22,2021/06/29,21A,36,
-0,Seminario de Tesis III,Doctorado,CIDETEC-IPN,,2021/02/22,2021/06/29,21A,36,
-0,Seminario de Tesis IV,Doctorado,CIDETEC-IPN,,2021/02/22,2021/06/29,21A,36,
-0,Visión Artificial,Maestría,CIDETEC-IPN,,2022/01/31,2022/06/23,22A,72,
-0,Visión 3D,Maestría,CIDETEC-IPN,,2022/01/31,2022/06/23,22A,72,
-0,Seminiario departamental II,Maestría,CIDETEC-IPN,,2022/01/31,2022/06/23,22A,36,
-0,Seminario de Tesis IV,Doctorado,CIDETEC-IPN,Doctorado en Ingeniería de Sistemas Robóticos y Mecatrónicos,2022/01/31,2022/06/23,22A,36,
-6BM1,Redes Neuronales y Aprendizaje Profundo,Licenciatura,ESCOM,Ingeniería en Inteligencia Artificial,2022/08/15,2023/01/06,22B,81,
-,Seminario departamental II,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2023/01/30,2023/06/26,23A,36,
-,Deep learning,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2023/01/30,2023/06/26,23A,72,
-,Seminario de tesis II,Doctorado,CIDETEC-IPN,Doctorado en Ingeniería de Sistemas Robóticos y Mecatrónicos,2023/01/30,2023/06/26,23A,36,
-,Robótica Móvil,Doctorado,CIDETEC-IPN,Doctorado en Ingeniería de Sistemas Robóticos y Mecatrónicos,2023/01/30,2023/06/26,23A,72,
-4AM1,Desarrollo de Aplicaciones para Análisis de Datos,Licenciatura,ESCOM,Licenciatura en Ciencia de Datos,2023/01/30,2023/06/26,23A,81,
-6BM1,Redes Neuronales y Aprendizaje Profundo,Licenciatura,ESCOM,Ingeniería en Inteligencia Artificial,2023/01/30,2023/06/26,23A,81,
+Clave,Nombre,Nivel,Institucion,Programa,Inicio,Fin,Semestre,Horas,Horas por semana,Comentario
+0,Arquitectura de Computadoras,Maestría,CIDETEC-IPN,,2016/02/01,2016/06/10,,72,,
+0,Visión Artificial,Maestría,CIDETEC-IPN,,2016/08/08,2016/12/21,,72,,
+0,Seminario Departamental I,Maestría,CIDETEC-IPN,,2017/01/01,2017/06/01,,36,,
+0,Seminario Departamental II,Maestría,CIDETEC-IPN,,2017/01/01,2017/06/01,,36,,
+0,Temas Selectos en Tecnología de Cómputo,Maestría,CIDETEC-IPN,,2017/01/01,2017/06/01,,72,,
+0,Visión Artificial,Maestría,CIDETEC-IPN,,2017/01/01,2017/06/01,,72,,
+0,Visión 3D,Maestría,CIDETEC-IPN,,2017/08/01,2017/12/01,,72,,
+0,Seminario Departamental II,Maestría,CIDETEC-IPN,,2017/08/01,2017/12/01,,36,,
+0,Seminario Departamental III,Maestría,CIDETEC-IPN,,2017/08/01,2017/12/01,,36,,
+0,Seminario Departamental II,Maestría,CIDETEC-IPN,,2018/01/01,2018/06/01,,36,,ok
+0,Seminario Departamental III,Maestría,CIDETEC-IPN,,2018/01/01,2018/06/01,,36,,ok
+0,Temas Selectos en Tecnología de Cómputo,Maestría,CIDETEC-IPN,,2018/01/01,2018/06/01,,72,,ok
+0,Seminario Departamental III,Maestría,CIDETEC-IPN,,2018/08/01,2018/12/01,,36,,ok
+0,Visión Artificial,Maestría,CIDETEC-IPN,,2018/08/01,2018/12/01,,72,,ok
+0,Temas Selectos en Tecnología de Cómputo,Maestría,CIDETEC-IPN,,2018/08/01,2018/12/01,,72,,ok
+0,Visión Artificial,Maestría,CIDETEC-IPN,,2019/01/01,2019/06/01,19A,72,,ok
+0,Temas Selectos en Tecnología de Cómputo,Maestría,CIDETEC-IPN,,2019/01/01,2019/06/01,19A,72,,ok
+0,Seminario de Tesis I,Doctorado,CIDETEC-IPN,,2019/08/05,2019/12/06,19B,36,,ok
+0,Robótica Móvil,Doctorado,CIDETEC-IPN,,2019/08/05,2019/12/06,19B,72,,ok
+0,Visión Artificial,Maestría,CIDETEC-IPN,,2020/01/20,2020/06/05,20A,72,,ok
+0,Robótica Móvil,Doctorado,CIDETEC-IPN,,2020/01/20,2020/06/05,20A,72,,ok
+0,Seminario de Tesis I,Doctorado,CIDETEC-IPN,,2020/01/20,2020/06/05,20A,36,,ok
+0,Seminario de Tesis II,Doctorado,CIDETEC-IPN,,2020/01/20,2020/06/05,20A,36,,ok
+0,Visión 3D,Maestría,CIDETEC-IPN,,2021/02/22,2021/06/29,21A,72,,
+0,Robótica Móvil,Doctorado,CIDETEC-IPN,,2021/02/22,2021/06/29,21A,72,,
+0,Seminario de Tesis II,Doctorado,CIDETEC-IPN,,2021/02/22,2021/06/29,21A,36,,
+0,Seminario de Tesis III,Doctorado,CIDETEC-IPN,,2021/02/22,2021/06/29,21A,36,,
+0,Seminario de Tesis IV,Doctorado,CIDETEC-IPN,,2021/02/22,2021/06/29,21A,36,,
+0,Visión Artificial,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2022/01/31,2022/06/23,22A,72,4,
+0,Visión 3D,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2022/01/31,2022/06/23,22A,72,4,
+0,Seminiario departamental II,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2022/01/31,2022/06/23,22A,36,2,
+0,Seminario de Tesis IV,Doctorado,CIDETEC-IPN,Doctorado en Ingeniería de Sistemas Robóticos y Mecatrónicos,2022/01/31,2022/06/23,22A,36,2,
+6BM1,Redes Neuronales y Aprendizaje Profundo,Licenciatura,ESCOM,Ingeniería en Inteligencia Artificial,2022/08/15,2023/01/06,22B,81,4.5,
+,Deep learning,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2022/08/15,2023/01/06,22B,72,4,
+,Visión Artificial,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2022/08/15,2023/01/06,22B,72,4,
+,Visión 3D,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2022/08/15,2023/01/06,22B,72,4,
+,Seminario Departamental I,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2022/08/15,2023/01/06,22B,36,2,
+,Seminario departamental III,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2022/08/15,2023/01/06,22B,36,2,
+,Robótica Móvil,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2022/08/15,2023/01/06,22B,72,4,
+,Seminario departamental II,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2023/01/30,2023/06/26,23A,36,2,
+,Deep learning,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2023/01/30,2023/06/26,23A,72,4,
+,Seminario de tesis II,Doctorado,CIDETEC-IPN,Doctorado en Ingeniería de Sistemas Robóticos y Mecatrónicos,2023/01/30,2023/06/26,23A,36,2,
+,Robótica Móvil,Doctorado,CIDETEC-IPN,Doctorado en Ingeniería de Sistemas Robóticos y Mecatrónicos,2023/01/30,2023/06/26,23A,72,4,
+4AM1,Desarrollo de Aplicaciones para Análisis de Datos,Licenciatura,ESCOM,Licenciatura en Ciencia de Datos,2023/01/30,2023/06/26,23A,81,4.5,
+6BM1,Redes Neuronales y Aprendizaje Profundo,Licenciatura,ESCOM,Ingeniería en Inteligencia Artificial,2023/01/30,2023/06/26,23A,81,4.5,
+,Seminario Departamental III,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2023/08/28,2024/01/22,23B,36,2,
+,Deep learning,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2023/08/28,2024/01/22,23B,72,4,
+,Visión Artificial,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2023/08/28,2024/01/22,23B,72,4,
+,Seminario de tesis III,Doctorado,CIDETEC-IPN,Doctorado en Ingeniería de Sistemas Robóticos y Mecatrónicos,2023/08/28,2024/01/22,23B,36,2,
+,Robótica Móvil,Doctorado,CIDETEC-IPN,Doctorado en Ingeniería de Sistemas Robóticos y Mecatrónicos,2023/08/28,2024/01/22,23B,72,4,
+,Redes Neuronales y Aprendizaje Profundo,Licenciatura,ESCOM,Ingeniería en Inteligencia Artificial,2023/08/28,2024/01/22,23B,81,4.5,

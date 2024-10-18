@@ -1,5 +1,12 @@
-Nombre,Apellido_paterno,Apellido_materno,Nivel,Generación,Fecha de graduación,tesis_file,sip14_file,sip15_file
-Efrén,López,Jiménez,Maestría,,08/03/18,2018_maestria_Lopez.pdf,2018_SIP14bis_Lopez.pdf,2018_SIP15_Lopez.pdf
-Miguel Ángel,Mendoza,Guadarrama,Maestría,,12/21/18,2018_maestria_Mendoza.pdf,2018_SIP14bis_Mendoza.pdf,2018_SIP15_Mendoza.pdf
-Erick,Rodríguez,Hernández,Maestría,,08/01/19,2019_maestria_Rodriguez.pdf,2019_SIP14_Rodriguez.pdf,2019_SIP15_Rodriguez.pdf
-Esther Viridiana,Vázquez,Carmona,Maestría,,01/09/20,2019_maestria_Vazquez.pdf,2019_SIP14_Vazquez.pdf,2019_SIP15_Vazquez.pdf
+Nombre,Apellido_paterno,Apellido_materno,Nivel,Tesis,Generación,Año,Fecha de exámen,tesis_file,sip14_file,sip15_file
+Efrén,López,Jiménez,Maestría,Sistema embebido para la supervision inteligente de terrenos con vehiculos aereos no tripulados,,2018,08/03/18,2018_maestria_Lopez.pdf,2018_SIP14bis_Lopez.pdf,2018_SIP15_Lopez.pdf
+Miguel Ángel,Mendoza,Guadarrama,Maestría,NBV-Net: Una red neuronal para calcular la siguiente mejor vista,,2018,12/21/18,2018_maestria_Mendoza.pdf,2018_SIP14bis_Mendoza.pdf,2018_SIP15_Mendoza.pdf
+Erick,Rodríguez,Hernández,Maestría,Clonación de comportamiento para cruce de pasajes estrechos con VANT,,2019,08/01/19,2019_maestria_Rodriguez.pdf,2019_SIP14_Rodriguez.pdf,2019_SIP15_Rodriguez.pdf
+Esther Viridiana,Vázquez,Carmona,Maestría,Sistema electronico para el monitoreo de gases de efecto invernadero utilizando internet de las cosas y vehiculos aereos no tripulados,,2019,01/09/20,2019_maestria_Vazquez.pdf,2019_SIP14_Vazquez.pdf,2019_SIP15_Vazquez.pdf
+Edgar Mauricio,Muñoz ,Silva,Maestría,Implementación de un algoritmo de aprendizaje máquina para clasificar una nube de puntos de un modelo arquitectónico,,2023,27/11/2023,,,
+Gerardo Antonio,Álvarez,Hernandez,Maestría,Sistema de visión computacional aplicado a la detección de tomates,,2023,21/12/2023,,,
+Saulo Abraham,Gante,Diaz,Maestría,Mapeo implícito autónomo de ambientes interiores,,2023,19/01/2023,,,
+Erick,Rodríguez ,Hernandez,Doctorado,Navegación autónoma para vehículos en pistas cerradas con obstáculos móviles,,2022,13/07/2022,,,
+Juan Carlos,Olguin,Rojas,Doctorado,sistema mecatrónico par la clasificación y detección de daños en manzana (Malus doméstica),,2023,19/07/2023,,,
+Gabriel Omar,Flores ,Aquino,Doctorado,Planificación de trayectorias para robots móviles con estrategias de aprendizaje máquina,,2023,18/07/2023,,,
+Esther Viridiana,Vázquez,Carmona,Doctorado,Diseño de un algoritmo de cobertura de espacios tridimensionales para vehículos aéreos no tripulados,,2023,18/01/2023,,,

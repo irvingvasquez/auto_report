@@ -1,158 +1,70 @@
-\documentclass[10pt]{article}
+\documentclass[10pt,letterpaper]{article}
 
-%\usepackage{revnum}
-
-\usepackage{fancyhdr}
-\usepackage{amsmath,amssymb,amsfonts}
-\usepackage{graphicx}
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.5in]{geometry} % Márgenes estrechos para ahorrar espacio
+\usepackage{amsmath,amssymb,amsfonts}
 \usepackage{hyperref}
-\usepackage{subfig}
 \usepackage{fontawesome}
+\usepackage{enumitem}
 
-\oddsidemargin  0.25in
-\evensidemargin 0.25in
-\textwidth      6.3in
-\topmargin      -0.25in
-\textheight     8.7in
-\parskip        0.1in
-\parindent      0.0in
+% Configuración de listas para que no ocupen mucho espacio vertical
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=1.5em}
 
-\hyphenation{}
+\hypersetup{colorlinks=true, urlcolor=blue}
 
 \begin{document}
 	
 	\begin{center}
-		{\huge Juan Irving Vasquez Gomez}
-		\vspace{0.5cm}
-		
-		\begin{minipage}[b]{0.3\linewidth}
-			\centering
-			\includegraphics[width=\textwidth]{jivg36}
-			%	\caption{default}
-			%	\label{fig:figure1}
-		\end{minipage}
-		\hspace{0.5cm}
-		\begin{minipage}[b]{0.6\linewidth}
-			\textbf{Date of birth:} November, 1984 \\
-			\textbf{Position:} Associate professor at Instituto Politécnico Nacional (IPN), Mexico.
-			Centro de Innovación y Desarrollo Tecnológico en Cómputo (CIDETEC) \\ 
-			\textbf{Address:} "Juan de Dios Bátiz" Ave. s/n, Nueva Industrial Vallejo, Gustavo A. Madero, Ciudad de México, México, 07700. \\
-			\textbf{Telephone \faPhone:} +52 55 5729-6000 Ext. 52516. \\
-			\textbf{e-mail \faEnvelopeO:} jvasquezg[at]ipn.mx, jirvingvg[at]gmail.com\\
-			\textbf{URL \faExternalLink:} \url{https://jivg.org} \\
-			\textbf{ORCID:} \url{https://orcid.org/0000-0001-8427-9333} \\
-			\textbf{Scopus Id:} \href{https://www.scopus.com/authid/detail.uri?authorId=54415023500}{54415023500}\\
-			\textbf{github \faGithub :} \url{https://github.com/irvingvasquez} \\
-			\textbf{Kaggle:} \url{https://www.kaggle.com/irvingvasquez}
-		\end{minipage}
-			
+		{\huge \textbf{Juan Irving Vásquez Gómez}} \\
+		\vspace{2pt}
+		\small
+		Full Professor at CIDETEC - Instituto Politécnico Nacional (IPN), Mexico \\
+		\faPhone \ +52 55 5729-6000 Ext. 52516 \quad 
+		\faEnvelopeO \ \href{mailto:jvasquezg@ipn.mx}{jvasquezg@ipn.mx} / \href{mailto:jirvingvg@gmail.com}{jirvingvg@gmail.com} \\
+		\faExternalLink \ \url{https://jivg.org} \quad
+		\faGithub \ \href{https://github.com/irvingvasquez}{irvingvasquez} \quad
+		\faBarChart \ ORCID: \href{https://orcid.org/0000-0001-8427-9333}{0000-0001-8427-9333}
 	\end{center}
-
-
-\begin{center}
-{\bf Research Interests:} \\ Robotics, Computer Vision, Three-dimensional Modelling, Motion Planning.
-\end{center}
-
-\begin{itemize}
-
-\item{\bf PERSONAL STATEMENT:}
 	
-\input{../text/personal_statement_en}
+	\vspace{-10pt}
+	\hrule
+	\vspace{5pt}
 	
-\item{\bf EDUCATION:}
-
-\begin{minipage}{1.5 in}
-	2014\\
-\end{minipage}
-\begin{minipage}{4.5in}
-	\textbf{PhD. in Computer Sciencies.} \textit{Institute for Astrophysics Optics and
-	Electronics (INAOE) \href{https://www.inaoep.mx/}{\faExternalLink}.} Thesis: View Planning for 3D Object Reconstruction with Mobile Robots \href{https://jivasquez.files.wordpress.com/2015/03/tesis-doctorado.pdf}{\faFilePdfO}. Advisors: Enrique Sucar and Rafael Murrieta.\\ 
-\end{minipage}
-
-
-\begin{minipage}{1.5 in}
-	2009\\
-\end{minipage}
-\begin{minipage}{4.5in}
-	\textbf{M. Sc. in Computer Sciencies.} \textit{Institute for Astrophysics Optics and
-		Electronics (INAOE) \href{https://www.inaoep.mx/}{\faExternalLink}.} Thesis: View Planning for Three-dimensional Object Reconstruction \href{https://jivasquez.files.wordpress.com/2015/03/tesis-maestria.pdf}{\faFilePdfO}. Advisors: Enrique Sucar and Efrain Lopez-Damian.\\ 
-\end{minipage}
-
-\begin{minipage}{1.5 in}
-	2006\\
-\end{minipage}
-\begin{minipage}{4.5in}
-	\textbf{B.S.E. in Computer Systems Engineering} \textit{Tehuacan Institute of Technology (ITT)}, Graduated by ``Score of excelence".\\ 
-\end{minipage}
-
-%\item {\bf PROFESSIONAL EXPERIENCE:} \\\\
-%
-%\begin{minipage}{1.5 in}
-%	02/2016 - Current\\
-%\end{minipage}
-%\begin{minipage}{4.5in}
-%	CONACYT Research Fellow assigned to Instituto Politécnico Nacional (IPN), Centro de Innovación y Desarrollo Tecnológico en Cómputo (CIDETEC). Project 1507.\\ 
-%\end{minipage}
-%
-%%\begin{minipage}{1.5 in}
-%%	01/2015 - 12/2015\\
-%%\end{minipage}
-%%\begin{minipage}{4.5in}
-%%	CONACYT Research Fellow assigned to Instituto Politécnico Nacional, Centro de Innovación y Desarrollo Tecnológico en Cómputo. Project 1507.\\ 
-%%\end{minipage}
-%
-%\begin{minipage}{1.5 in}
-%08/2009 - 08/2014\\
-%\end{minipage}
-%\begin{minipage}{4.5in}
-%Researcher and programmer for the INAOE's Markovito Team at the Robocup@home
-%Competition.\\ 
-%\end{minipage}
-%
-%\item{\bf MAIN AWARDS AND DISTINCTIONS}
-%%\input{../../text/awards_es}
-%
-\item {\bf SELECTED PUBLICATIONS:} \\
-
-\begin{figure}[t]
-	\subfloat[Publications distribution.\label{subfig-1:dummy}]{%
-		\includegraphics[trim=90 0 90 0, clip, width=0.60\textwidth]{../text/products_en.pdf}
-	}
-	\hfill
-	\subfloat[Scopus metrics\label{subfig-2:dummy}]{%
-		\includegraphics[width=0.35\textwidth]{../text/scopus_metrics.png}
-	}
-	\caption{Scientific products.}
-	\label{fig:dummy}
-\end{figure}
-
-\begin{itemize}
-	\item \textbf{JCR Journals}:
-	\input{../text/jcr_journals.tex}
+	\textbf{Research Interests:} Robotics, Deep Learning, Computer Vision, 3D Modelling, Motion Planning.
 	
-	\item \textbf{Conferences}:
-	\input{../text/proceedings.tex}
+	\section*{Personal Statement}
+	\vspace{-5pt}
+	% He mantenido tu comando input, asegúrate de que el archivo exista o pega el texto aquí
+	\input{../text/personal_statement_en}
 	
-%	\item \textbf{Preprints}:
-%	\input{../text/preprints.tex}
-\end{itemize}
-
-\vspace{0.5cm}
-\item{\bf STUDENTS:}
-
-\begin{itemize}
-	\item Master students:
-	\input{../text/master_students}
-	\item PhD students;
-	\input{../text/phd_students}
+	\section*{Education}
+	\vspace{-5pt}
+	\begin{itemize}
+		\item \textbf{2014 -- PhD. in Computer Sciences.} \href{https://www.inaoep.mx/}{\textit{INAOE}}, México. Thesis. Advisors: Enrique Sucar and Rafael Murrieta.
+		\item \textbf{2009 -- M. Sc. in Computer Sciences.} \href{https://www.inaoep.mx/}{\textit{INAOE}}, México. Thesis. Advisors: Enrique Sucar and Efrain Lopez-Damian.
+		\item \textbf{2006 -- B.S.E. in Computer Systems Engineering.} \textit{Tehuacan Institute of Technology (ITT)}. Graduated by "Score of excellence".
+	\end{itemize}
 	
-\end{itemize}
+	\section*{Selected Publications}
+	\vspace{-5pt}
+	\begin{itemize}
+		\item \textbf{JCR Journals:} \input{../text/jcr_journals.tex}
+		\item \textbf{Conferences:} \input{../text/proceedings.tex}
+	\end{itemize}
+	
+	\section*{Students Supervision}
+	\vspace{-5pt}
+	\begin{itemize}
+		\item \textbf{PhD Students:} \input{../text/phd_students}
+		\item \textbf{Master Students:} \input{../text/master_students}
+	\end{itemize}
 
-\vspace{0.5cm}
-\item \textbf{CERTIFICATIONS}
-\input{../text/certifications.tex}
-
-\end{itemize}
-
+	\section*{Selected Talks}
+	\input{../text/talks.tex}
+	
+	%\section*{Certifications}
+	%\vspace{-5pt}
+	%\input{../text/certifications.tex}
+	
 \end{document}

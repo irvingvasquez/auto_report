@@ -1,0 +1,80 @@
+Rubro,ID_Corto,Actividad,Puntos
+1.1,revistas_a,Artículos en el Índice de Revistas del IPN Nivel A,150
+1.2,revistas_rev,Artículos de revisión en revistas incluidas en el rubro 1.1,200
+1.3,revistas_b,Artículos en el Índice de Revistas del IPN Nivel B,100
+1.4,revistas_c,Artículos en el Índice de Revistas del IPN Nivel C,75
+1.5,revistas_d,Artículos en el Índice de Revistas del IPN Nivel D,30
+1.6,art_cong_int,Artículos en memorias de congresos internacionales con arbitraje y publicadas por una editorial de prestigio,30
+1.7,art_cong_nac,"Artículos en memorias de congresos nacionales, con arbitraje",15
+1.8,libros_inv_int,Libros especializados por encargo o contrato derivados de proyectos de investigación (Editorial Internacional),425
+1.8,libros_inv_nac,Libros especializados por encargo o contrato derivados de proyectos de investigación (Editorial Nacional),250
+1.8,libros_inv_inst,Libros especializados por encargo o contrato derivados de proyectos de investigación (Editorial Institucional),125
+1.9,libros_camp_int,Libros especializados por encargo o contrato relacionados con los campos del conocimiento del investigador (Editorial Internacional),300
+1.9,libros_camp_nac,Libros especializados por encargo o contrato relacionados con los campos del conocimiento del investigador (Editorial Nacional),150
+1.9,libros_camp_inst,Libros especializados por encargo o contrato relacionados con los campos del conocimiento del investigador (Editorial Institucional),100
+1.10,caps_inv_int,Capítulos en libros del rubro 1.8 (Editorial Internacional),125
+1.10,caps_inv_nac,Capítulos en libros del rubro 1.8 (Editorial Nacional),65
+1.10,caps_inv_inst,Capítulos en libros del rubro 1.8 (Editorial Institucional),50
+1.11,caps_camp_int,Capítulos en libros del rubro 1.9 (Editorial Internacional),90
+1.11,caps_camp_nac,Capítulos en libros del rubro 1.9 (Editorial Nacional),50
+1.11,caps_camp_inst,Capítulos en libros del rubro 1.9 (Editorial Institucional),40
+1.12,editor_int,Editor de libros especializados con reconocimiento y cobertura internacional,250
+1.12,editor_nac_mem_int,Editor de libros especializados con reconocimiento nacional o Editor de memorias de congresos internacionales,100
+1.12,editor_mem_nac,Editor de memorias de congresos nacionales,50
+1.13,editor_revistas,"Editor en jefe o editor asociado de revistas incluidas en el IPN niveles A, B o C",300
+1.14,revisor_int,Revisor de revistas internacionales,50
+1.15,revistas_e,Artículos en el Índice de Revistas del IPN Nivel E (Divulgación Científica y Tecnológica),25
+1.16,revistas_f,Artículos en el Índice de Revistas del IPN Nivel F (Divulgación Científica y Tecnológica),15
+1.17,revistas_g,Artículos en el Índice de Revistas del IPN Nivel G (Difusión Científica y Tecnológica),5
+1.18,res_cong_int,Resúmenes publicados en memorias de congresos internacionales con arbitraje,10
+1.19,res_cong_nac,Resúmenes publicados en memorias de congresos nacionales con arbitraje,5
+1.20,inf_inv_dir,Informes técnicos finales de proyectos de investigación (Director),100
+1.20,inf_inv_part,Informes técnicos finales de proyectos de investigación (Participante),50
+II.,inf_tec_dir,Informes técnicos finales de proyectos de desarrollo tecnológico o innovación con financiamiento económico externo (Director),100
+II.,inf_tec_part,Informes técnicos finales de proyectos de desarrollo tecnológico o innovación con financiamiento económico externo (Participante),50
+II.1,soft_autor,Programas de cómputo con derechos de autor registrados,Hasta 200
+II.2,plantas_piloto,"Diseño de plantas piloto, prototipos e instrumentos, realizados a través de un convenio con el IPN",Hasta 150
+II.3,sol_patente,Solicitud de registro de patentes del IPN nacionales o internacionales,Hasta 125
+II.4,exam_patente,Aprobación del examen de forma de patentes nacionales e internacionales del IPN,50
+II.5,prop_intelec,"Formas de protección de la propiedad intelectual (Modelos, Diseños, Marcas, etc.)",125
+II.6,pat_nac_obt,Obtención de patentes nacionales del IPN con registro en el IMPI,150
+II.7,pat_nac_trans,"Patentes nacionales del IPN con explotación comercial, o transferencias tecnológicas",500
+II.8,pat_int_obt,Obtención de patentes internacionales del IPN,300
+II.9,pat_int_trans,"Patentes internacionales del IPN con explotación comercial, o transferencias tecnológicas",800
+II.10,plan_est_coord,Diseño original de planes completos de programas de estudio a solicitud de terceros (Coordinador),125
+II.10,plan_est_part,Diseño original de planes completos de programas de estudio a solicitud de terceros (Participante),25
+II.11,proy_vinc_dir,Informes técnicos finales de proyectos vinculados sin remuneración económica (Director),150
+II.11,proy_vinc_part,Informes técnicos finales de proyectos vinculados sin remuneración económica (Participante),100
+II.12,cert_labs,Certificación de laboratorios del IPN para servicio externo,150
+II.13,val_pruebas,Validación de pruebas de laboratorio para servicio externo,25
+III.1,tesis_doc_tpo,Dirección de tesis de doctorado (Terminada en tiempo PNPC),300
+III.1,tesis_doc_xtra,Dirección de tesis de doctorado (Fuera de tiempo PNPC y tesis externas),200
+III.2,tesis_mae_tpo,Dirección de tesis de maestría (Terminada en tiempo PNPC),100
+III.2,tesis_mae_xtra,Dirección de tesis de maestría (Fuera de tiempo PNPC y tesis externas),70
+III.3,tesis_esp,Dirección de tesis de especialidad,70
+III.4,tesis_lic,Dirección de tesis o trabajos escritos de titulación de los niveles medio superior y superior,50
+III.5,art_alum_pifi,Artículos en revistas JCR y SSCI en coautoría con sus alumnos PIFI o tesistas,15
+IV.1,curso_posgrado,Cursos de Nivel Posgrado en el IPN (puntos por hora-semana-semestre),1
+IV.2,curso_sup_nosni,Cursos de Nivel Medio Superior y Superior en el IPN (Si no pertenece al SNI),1.5
+IV.2,curso_sup_sni,Cursos de Nivel Medio Superior y Superior en el IPN (Si pertenece al SNI),2
+IV.3,curso_edu_cont,"Cursos de propósito específico, diplomados, seminarios de titulación o educación continua",0.75
+V.1,premio_nac,Premio Nacional de Ciencias y Artes y Premio de la Academia Mexicana de Ciencias,500
+V.2,dist_nac,Distinciones y Premios Nacionales de otras organizaciones por desempeño en investigación,300
+V.3,premio_int,Premio Internacional de Instituciones de Prestigio en Ciencia y Tecnología,1000
+V.4,dist_int,Distinciones y Premios Internacionales por otras organizaciones,400
+V.5,dist_inst,Distinciones y Premios Institucionales,300
+VI.1,grado_maestria,Obtención del grado de Maestro en Ciencias,150
+VI.2,grado_doctor,Obtención del grado de Doctor,250
+VII.1,adm_sec_gen,Secretario General o Secretario de Área,300
+VII.1,adm_coord_gen,Coordinador General,275
+VII.2,adm_dir_area,Dirección de Coordinación o de Área del IPN,250
+VII.3,adm_dir_cen,Director de Centro de Investigación de Escuela Superior o de Escuela de Nivel Medio Superior,200
+VII.4,adm_jefe_pos,Jefe de Sección de Posgrado e Investigación,150
+VII.5,adm_subdir,"Subdirector de Escuela o Centro de Investigación, o equivalente en el Área Central",150
+VII.6,adm_crd_pnpc,Coordinador de un Programa de Posgrado registrado en el PNPC,150
+VII.7,adm_crd_nopnpc,Coordinador de un Programa de Posgrado no registrado en el PNPC,75
+VII.8,adm_jefe_dep_esc,Jefatura de Departamento Académico-Administrativo en Escuela o Centro de Investigación,75
+VII.9,adm_jefe_dep_ipn,"Jefatura de Departamento Académico-Administrativo del IPN, o equivalente en el Área Central",75
+VII.10,adm_pres_acad,Presidente de Academia,50
+VII.11,red_prog_coord,Diseño o rediseño de programas académicos de Posgrado del IPN ingresados al PNPC (Coordinador),200
+VII.11,red_prog_part,Diseño o rediseño de programas académicos de Posgrado del IPN ingresados al PNPC (Participante),50

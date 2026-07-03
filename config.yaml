@@ -1,0 +1,16 @@
+# Root configuration for auto_report.
+# CLI flags (--from, --to) override these values.
+
+# Path to BibTeX and CSV data (relative to repo root)
+database_dir: database
+
+# Default date range for filtering publications and activities
+date_from: "2008-01-01"
+date_to: "2026-12-31"
+
+# Full CV (ES): only include teaching from the last N years
+teaching_recent_years: 2
+
+# EDI report paths (optional; ~ is expanded)
+edi_probatorios: ~/Dropbox/Probatorios
+edi_output: ~/Documents/EDI_2026

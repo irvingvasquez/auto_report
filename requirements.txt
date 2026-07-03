@@ -1,0 +1,6 @@
+bibtexparser==1.4.0
+pyparsing==2.4.7
+pandas
+numpy
+matplotlib
+pyyaml

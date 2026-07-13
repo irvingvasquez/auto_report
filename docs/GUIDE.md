@@ -22,10 +22,10 @@ Or edit `date_from` / `date_to` in [`config.yaml`](../config.yaml).
 ### Update website publications
 
 ```sh
-python -m reports generate web-page
+python -m reports generate publicaciones_html
 ```
 
-Upload or sync `reports/web_page/html/publications.html`.
+Upload or sync `reports/publicaciones_html/html/publications.html`.
 
 ### Prepare EDI submission
 
@@ -52,7 +52,7 @@ Then recompile the LaTeX template only.
 
 ## Static vs generated files
 
-Files in `reports/*/text/` and `reports/web_page/html/`:
+Files in `reports/*/text/` and `reports/publicaciones_html/html/`:
 
 ### Generated (overwritten by CLI)
 

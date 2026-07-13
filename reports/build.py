@@ -229,9 +229,9 @@ def build_short_cv(ctx: Context, settings: Settings) -> None:
     print(f"Generated short CV fragments in {out}")
 
 
-@register("web-page")
-def build_web_page(ctx: Context, settings: Settings) -> None:
-    out = _out_dir("reports", "web_page", "html")
+@register("publicaciones_html")
+def build_publicaciones_html(ctx: Context, settings: Settings) -> None:
+    out = _out_dir("reports", "publicaciones_html", "html")
     out.mkdir(parents=True, exist_ok=True)
     p = ctx.productos
 
@@ -270,7 +270,7 @@ def build_web_page(ctx: Context, settings: Settings) -> None:
         out / "phd_students.html",
     ]
     w.concatenate_html(parts, out / "publications.html")
-    print(f"Generated web page HTML in {out}")
+    print(f"Generated publicaciones HTML in {out}")
 
 
 @register("simple-list")

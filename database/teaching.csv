@@ -18,15 +18,19 @@ Clave,Nombre,Nivel,Institucion,Programa,Inicio,Fin,Semestre,Horas,Horas por sema
 0,Temas Selectos en Tecnología de Cómputo,Maestría,CIDETEC-IPN,,2019/01/01,2019/06/01,19A,72,,ok
 0,Seminario de Tesis I,Doctorado,CIDETEC-IPN,,2019/08/05,2019/12/06,19B,36,,ok
 0,Robótica Móvil,Doctorado,CIDETEC-IPN,,2019/08/05,2019/12/06,19B,72,,ok
-0,Visión Artificial,Maestría,CIDETEC-IPN,,2020/01/20,2020/06/05,20A,72,,ok
-0,Robótica Móvil,Doctorado,CIDETEC-IPN,,2020/01/20,2020/06/05,20A,72,,ok
-0,Seminario de Tesis I,Doctorado,CIDETEC-IPN,,2020/01/20,2020/06/05,20A,36,,ok
-0,Seminario de Tesis II,Doctorado,CIDETEC-IPN,,2020/01/20,2020/06/05,20A,36,,ok
-0,Visión 3D,Maestría,CIDETEC-IPN,,2021/02/22,2021/06/29,21A,72,,
-0,Robótica Móvil,Doctorado,CIDETEC-IPN,,2021/02/22,2021/06/29,21A,72,,
-0,Seminario de Tesis II,Doctorado,CIDETEC-IPN,,2021/02/22,2021/06/29,21A,36,,
-0,Seminario de Tesis III,Doctorado,CIDETEC-IPN,,2021/02/22,2021/06/29,21A,36,,
-0,Seminario de Tesis IV,Doctorado,CIDETEC-IPN,,2021/02/22,2021/06/29,21A,36,,
+0,Visión Artificial,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2020/01/20,2020/06/05,20A,72,4,ok
+0,Robótica Móvil,Doctorado,CIDETEC-IPN,Doctorado en Ingeniería de Sistemas Robóticos y Mecatrónicos,2020/01/20,2020/06/05,20A,72,4,ok
+0,Seminario de Tesis I,Doctorado,CIDETEC-IPN,Doctorado en Ingeniería de Sistemas Robóticos y Mecatrónicos,2020/01/20,2020/06/05,20A,36,2,ok
+0,Seminario de tesis II. Gestión y administración de proyectos de desarrollo tecnológico e innovación y protección de derechos intelectuales,Doctorado,CIDETEC-IPN,Doctorado en Ingeniería de Sistemas Robóticos y Mecatrónicos,2020/01/20,2020/06/05,20A,36,2,ok
+0,Algoritmos inteligentes,Doctorado,CIDETEC-IPN,Doctorado en Ingeniería de Sistemas Robóticos y Mecatrónicos,,,20B,72,4,
+0,Seminario de tesis II. Gestión y administración de proyectos de desarrollo tecnológico e innovación y protección de derechos intelectuales,Doctorado,CIDETEC-IPN,Doctorado en Ingeniería de Sistemas Robóticos y Mecatrónicos,,,20B,36,2,
+0,Seminario de tesis III. Examen predoctoral,Doctorado,CIDETEC-IPN,Doctorado en Ingeniería de Sistemas Robóticos y Mecatrónicos,,,20B,36,2,
+0,Visión artificial,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,,,20B,72,4,
+0,Visión 3D,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2021/02/22,2021/06/29,21A,72,4,
+0,Robótica Móvil,Doctorado,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2021/02/22,2021/06/29,21A,72,4,
+0,Seminario de Tesis II,Doctorado,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2021/02/22,2021/06/29,21A,36,2,
+0,Seminario de Tesis III,Doctorado,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2021/02/22,2021/06/29,21A,36,2,
+0,Seminario de Tesis IV,Doctorado,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2021/02/22,2021/06/29,21A,36,2,
 0,Visión Artificial,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2022/01/31,2022/06/23,22A,72,4,
 0,Visión 3D,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2022/01/31,2022/06/23,22A,72,4,
 0,Seminiario departamental II,Maestría,CIDETEC-IPN,Maestría en Tecnología de Cómputo,2022/01/31,2022/06/23,22A,36,2,
